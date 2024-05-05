@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(poster.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #home {
+    background-image: url(poster.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+  }
+  
+  #about {
+    background-image: url(lazy-loading.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+  }
+  
+  #services {
+    background-image: url(Lazy-Loading-Your-Images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+  }
+  
+  #contact {
+    background-image: url(sddefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+  }
+  
